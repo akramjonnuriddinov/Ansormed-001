@@ -26,12 +26,9 @@ body {
 
 
 /* HEADER */
-.site-header-logo {
-    display: flex;
-}
-
 .site-header-logo svg {
     color: #222222;
+    display: block;
     transition: color 0.3s ease;
 }
 
@@ -47,38 +44,12 @@ body {
     background-color: #fff;
 }
 
-.site-footer-logo svg {
-    color: #fff;
-}
-
 .site-header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.site-logo {
-    display: flex;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    text-decoration: none;
-    transition: color 0.4s ease;
-}
-
-.site-logo img {
-    width: 50px;
-    height: 50px;
-}
-
-.site-logo:hover .content-logo {
-    color: #DE2E54;
-}
-
-.site-logo:active {
-    opacity: 0.6;
 }
 
 .site-header-list {
@@ -211,7 +182,6 @@ body {
     font-size: 36px;
     line-height: 43.2px;
     color: #000000;
-    
 }
 
 .services-item {
@@ -318,12 +288,18 @@ body {
 .footer-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-.footer-logo {
+.site-footer-logo {
+    height: 50px;
+}
+
+.site-footer-logo svg {
     color: #fff;
+    display: block;
 }
 
 .site-footer-logo:active .footer-logo{
