@@ -171,10 +171,6 @@ body {
 }
 
 .services-container {
-    /* padding-top: 120px;
-    padding-bottom: 120px;
-    padding-left: 138px;
-    padding-right: 138px; */
     padding: 120px 138px;
 }
 
@@ -229,6 +225,7 @@ body {
     display: flex;
     justify-content: center;
 }
+/* /SERVICES */
 
 
 /* CONTACT */
@@ -281,8 +278,7 @@ body {
     outline: 2px dotted #fff;
     outline-offset: 3px;
 }
-/* /SERVICES */
-
+/* /CONTACT */
 
 /* /MAIN */
 
