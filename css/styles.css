@@ -249,6 +249,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    margin-top: 0;
 }
 
 .contact-btn-wrapper {
@@ -260,6 +261,10 @@ body {
     margin-right: 40px;
     background-color: transparent;
     border: 2px solid #fff;
+}
+
+.contact-btn:last-child {
+    margin-right: 0;
 }
 
 .contact-btn:hover {
